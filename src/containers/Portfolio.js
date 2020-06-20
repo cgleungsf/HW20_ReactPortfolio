@@ -5,7 +5,7 @@ import project2 from '../assets/port_project2.PNG'
 import project3 from '../assets/port_project3.PNG'
 
 export default (props) => (
-  <div>
+  <div className='portfolio'>
     <Grid container stackable verticalAlign='middle' textAlign='center'>
       <Grid.Column width={10}>
         <Divider

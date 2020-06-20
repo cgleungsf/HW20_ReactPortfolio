@@ -3,7 +3,7 @@ import { Grid, Divider, Icon } from 'semantic-ui-react';
 
 function Contact() {
   return (
-    <div>
+    <div className='contact'>
         <Grid container stackable verticalAlign='middle' textAlign='center'>
             <Grid.Column width={10}>
               <Divider

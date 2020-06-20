@@ -5,7 +5,7 @@ import parisPhoto from '../assets/paris.jpg'
 export default class AboutSection extends Component {
   render() {
     return (
-      <div>
+      <div className='about'>
         <Segment style={{ padding: '0em 0em' }} vertical>
         <Grid container stackable verticalAlign='middle' textAlign='center'>
         <Grid.Column width={10}>

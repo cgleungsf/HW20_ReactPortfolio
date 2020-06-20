@@ -7,7 +7,7 @@ import App from './App';
 //     <App2 />,
 //   document.getElementById('root')
 // );
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// registerServiceWorker();

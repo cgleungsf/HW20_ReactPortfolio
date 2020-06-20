@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Menu } from "semantic-ui-react";
 import { Header, Segment} from "semantic-ui-react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import map from '../assets/blue_world_map_pixabay.jpg'
+// import map from '../assets/blue_world_map_pixabay.jpg'
 
 
 export default class Navbar extends Component {
@@ -81,7 +81,7 @@ export default class Navbar extends Component {
             </Menu.Menu>
           {/* </Container> */}
         </Menu>
-        <img src={map} alt = 'map hero background' width = '100%' style = {{maxHeight:'580px'}}/>
+        {/* <img src={map} alt = 'map hero background' width = '100%' style = {{maxHeight:'580px'}}/> */}
       </Segment>
 
     );
