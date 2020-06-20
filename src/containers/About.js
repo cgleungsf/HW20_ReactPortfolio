@@ -29,7 +29,7 @@ export default class AboutSection extends Component {
             </p>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
-              <Image bordered rounded size='large' src={parisPhoto} />
+            <Image bordered rounded  src={parisPhoto} />
             </Grid.Column>
           </Grid.Row>
           </Grid>

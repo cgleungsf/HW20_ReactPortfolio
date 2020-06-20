@@ -6,6 +6,7 @@ import Contact from "./containers/Contact";
 
 import { Sticky } from 'semantic-ui-react'
 import map from './assets/blue_world_map_pixabay.jpg'
+import "./App.css";
 
 
 function App() {

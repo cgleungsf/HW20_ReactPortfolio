@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Divider, Card,} from 'semantic-ui-react';
+import { Grid, Divider, Card, Image } from 'semantic-ui-react';
 import project1 from '../assets/port_project1.PNG'
 import project2 from '../assets/port_project2.PNG'
 import project3 from '../assets/port_project3.PNG'
@@ -19,13 +19,14 @@ export default (props) => (
       </Grid.Column>
       <Grid.Row columns={3} width={10}>
         <Grid.Column>
-          <Card>
-            <img
+          <Card centered >
+            <Image
+              src={project1}
               as='a'
+              size='medium'
               href='https://emmbra.github.io/project1/'
               target='_blank'
-              src={project1}
-              alt = 'project 1 screenshot'
+              alt='project 1 screenshot'
               style={{
                 borderRadius: '0rem .0rem 0 0!important',
                 overflow: 'hidden',
@@ -49,13 +50,14 @@ export default (props) => (
           </Card>
         </Grid.Column>
         <Grid.Column>
-          <Card>
-            <img
+          <Card centered >
+            <Image
+              src={project2}
               as='a'
+              size='medium'
               href='https://eb-movie-rating-app.herokuapp.com/'
               target='_blank'
-              src={project2}
-              alt = 'project 2 screenshot'
+              alt='project 2 screenshot'
               style={{
                 borderRadius: '0rem .0rem 0 0!important',
                 overflow: 'hidden',
@@ -79,13 +81,14 @@ export default (props) => (
           </Card>
         </Grid.Column>
         <Grid.Column>
-          <Card>
-            <img
-              as='a'
-              href='https://eb-movie-rating-app.herokuapp.com/'
-              target='_blank'
+          <Card centered >
+            <Image
               src={project3}
-              alt = 'project 3 screenshot'
+              as='a'
+              size='medium'
+              href='https://runtothesun.herokuapp.com/'
+              target='_blank'
+              alt='project 3 screenshot'
               style={{
                 borderRadius: '0rem .0rem 0 0!important',
                 overflow: 'hidden',
@@ -103,7 +106,7 @@ export default (props) => (
               <Card.Header>Run with Friends</Card.Header>
               <Card.Meta> Created in June 2020</Card.Meta>
               <Card.Description>
-                Web applications created to challenge teams of runners with running events and run logs.
+                Web application created to challenge teams of runners with running events and run logs.
               </Card.Description>
             </Card.Content>
           </Card>

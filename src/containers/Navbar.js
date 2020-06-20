@@ -20,7 +20,6 @@ export default class Navbar extends Component {
           size='huge'
           style = {{ border:'none', boxShadow:'none', }}
         >
-          {/* <Container> */}
             <Header as='h1'
               className='header'
               horizontal
@@ -79,7 +78,6 @@ export default class Navbar extends Component {
               </Menu.Item>
 
             </Menu.Menu>
-          {/* </Container> */}
         </Menu>
         {/* <img src={map} alt = 'map hero background' width = '100%' style = {{maxHeight:'580px'}}/> */}
       </Segment>
